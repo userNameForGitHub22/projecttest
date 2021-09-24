@@ -132,7 +132,6 @@ public class Main {
             String secondString;
             if (result>0&&result<=10){ //для чисел имеющих одну цифру или равных десяти
                  romResult = rom.get(result);
-                System.out.println(romResult);
             }
             if (result>10&&result<100){ //для чисел имеющих две цифры
                 var firstCifra = (result+"").charAt(0);
